@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <!-- RESPONSIVIDADE-->
+    <link rel="stylesheet" href="/CSS/responsive.css">
+
+
+    <!-- OWL LINK-->
+    <link rel="stylesheet" href="CSS/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/owl/owl.theme.default.min.css">
+    <title>Netflix Music</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"> NETFLIX <i class="fas fa-music"></i></h2>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+
+            </nav>
+        </div>
+    </header>
+
+
+    
+    <div class="filme-principal">
+        <div class="container">
+            <h3 class="titulo">HOMECOMING</h3>
+            <h4 class="titulo2">A film by Beyonce </h4>
+            <p class="descricao">Documentário sobre a cantora norte-americana Beyoncé e sua apresentação no
+                    Coachella Valley Music and Arts Festival de 2018.
+                <h5><span class="porcentagem"> 98% relevante </span> &nbsp; 2019</h5>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="containerSaibaMais">
+
+        <div class="items">
+            <h3 class="titulo">Elenco</h3>
+            <p class="titulo">Beyoncé Knowless- Carter </p>
+        </div>
+
+        <div class="items">
+            <h3 class="titulo">Direção</h3>
+            <p class="titulo">Beyoncé Knowless- Carter</p>
+            <p class="titulo">Ed Burke</p>
+        </div>
+
+        <div class="items">
+            <h3 class="titulo">Classificação Etária</h3>
+            <p class="titulo12">12 </p>
+            <p class="titulo">Conteúdo Sexual</p>
+        </div>
+
+        <div class="items">
+            <h3 class="titulo">Gêneros</h3>
+            <p class="titulo">Hip-Hop</p>
+            <p class="titulo">Concertos</p>
+            <p class="titulo">Documentários</p>
+            <p class="titulo">Documentários sobre música e shows</p>
+            <p class="titulo">Documentários socioculturais</p>
+            <p class="titulo">Documentários iográficos</p>
+            <p class="titulo">Música e Musicais</p>
+            <p class="titulo">Filmes sobre música e shows</p>
+            <p class="titulo">Dança não-ficção</p>
+        </div>
+
+        <div class="items">
+            <h3 class="titulo">Cenas e Momentos</h3>
+            <p class="titulo">Intimidade</p>
+            <p class="titulo">Aqui tudo é possível</p>
+            <p class="titulo">Alto-Astral</p>
+        </div>
+
+    </div>
+
+
+    <script>
+
+        var topoConteudo = 200;
+
+        function sobeTexto() {
+            document.querySelector(".containerSaibaMais").style.top = topoConteudo + "px";
+            topoConteudo--;
+
+            if (topoConteudo == 0) {
+                    clearInterval(intervalo);
+            }
+        }
+
+        var intervalo = setInterval(sobeTexto, 50);
+
+    </script>
+    
+    <script src="https://kit.fontawesome.com/4e267fe305.js"></script>
+
+</body>

@@ -15,7 +15,7 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #fff;
 
 }
@@ -67,11 +67,29 @@ header nav a:hover {
     margin-bottom: 40px;
 }
 
+.porcentagem {
+    color: rgb(16, 247, 16);
+    font-weight: bold;
+    margin-right: 8px;
+}
+
 .filme-principal .titulo {
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.filme-principal .titulo2 {
+   
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.botoes {
+    margin-top: 15px;
+}
+
 
 .botao {
     background-color: rgba(0,0,0,.50);
@@ -82,6 +100,8 @@ header nav a:hover {
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    margin-left: 10px;
+    text-decoration: none;
 }
 
 .botao:hover {
@@ -106,3 +126,75 @@ header nav a:hover {
     width: 100%;
     display: block;
 }
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+
+
+/*------------------------SAIBA MAIS --------------------*/
+.titulo12 {
+    background-color:rgb(253, 229, 9);
+    color: #000;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px;
+    width: min-content;
+    margin:auto;
+
+}
+
+
+.containerSaibaMais {
+    position: relative;
+    text-align: center;
+}
+
+.containerSaibaMais .items {
+    margin-bottom: 20px;
+}
+
+
+/* ---------------- INICIO ---------------*/
+
+.user .container {
+    
+    display: flex;
+    justify-content: center;
+   margin-top: 50px;
+    
+}
+
+.item {
+    text-align: center;
+    width: 250px;
+}
+.user .container img {
+    width: 100px;
+    height: 100px;
+    margin-top: 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.user .container img:hover {
+
+    height: 250px;
+    width: 250px;
+}
+
+#quem {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+.user .container a {
+    text-decoration: none;
+    color: #fff;
+}
+
